@@ -9,6 +9,9 @@ import Chart from '../components/chart';
      const pressures = cityData.list.map(weather => weather.main.pressure)
      const humidities = cityData.list.map(weather => weather.main.humidity)
      console.log(temps);
+     console.log(name);
+     console.log(pressures);
+
 
      return (
        <tr key ={name}>
